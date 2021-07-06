@@ -69,7 +69,7 @@
    
     /* about section */
     .about-section{
-        background-image: url(/images/about-bg.jpg);
+        background-image: url(../images/about-bg.jpg);
         background-repeat: no-repeat;
     }
     .about-img img{
