@@ -87,58 +87,155 @@
         color: #707070;
     }
 /* recipe section */
-    .recipe-title{
+    .sec-title{
         text-align: center;
         margin-bottom: 50px;
         line-height: 30px;
 
     }
-    .recipe-title h2{
+    .sec-title h2{
         font-size: 40px;
         color: #575757;
     }
 
-    .recipe-title p{
+    .sec-title p{
         color: #707070;
         font-weight: 400;
     }
 
     .recipes{
         display: flex;
+        background-image: url(../images/team/Frame\ 58.jpg);
+        background-repeat: no-repeat;
     }
 
     .food-items{
         max-width: 30%;
         padding: 10px 0px;
-        margin-left: 50px;
-        margin-right: 10px;
+        margin-left: 35px;
+        margin-right: 25px;
         box-shadow: 0 5px 40px gray;
-        border-radius: 20px;
-
-        
+        border-radius: 30px;    
     }
 
     .food-items img{
         width: 90%;
         padding-right: 20px;
-        padding-bottom: 0;
-        margin: 0px;
-
+        padding-top: 12px;
+        margin: 0;
     }
     .food-items h2{
-        margin-bottom: 0;
-        text-align: center;
+        color: orangered;
     }
 
     .food-items h2,
     .food-items p{
-       margin: 0;
-        padding: 30px;
+        margin: 0;
         line-height: 30px;
-        
+    }
+    .food-items p{
+        color: #707070;
+        font-weight: 500;
     }
 
     .box-setup{
         padding: 20px;
         margin-right: 0px;
     }
+
+    /* feedback section */
+
+  
+   .review{
+      display: flex;
+      background-image: url(../images/review-bg.jpg);
+      background-repeat: no-repeat;
+   }
+
+   .review-items{
+       max-width: 30%;
+       padding: 70px;
+       margin: 30px;
+       
+       box-shadow: 0 5px 40px rgb(53, 88, 51);
+       border-radius: 30px;
+       
+   }
+.review-items img{
+    border-radius: 50%;
+    border: 2px solid gray;
+    box-shadow: 0 2px 30px#575757;
+}
+
+.review-items h3{
+    color: orangered;
+}
+.review-items h4{
+    color: #d87b10;
+}
+.review-items p{
+    color: #707070;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+/* chef section  */
+
+.chef{
+    display: flex;
+}
+.our-chefs{
+    max-width: 30%;
+    padding: 30px;
+    margin: 20px;
+    background-image: url(../images/team/Frame\ 59.jpg);
+    box-shadow: 0 5px 20px rgb(98, 98, 131);
+    border-radius: 40px;
+
+}
+.our-chefs img{
+    border-radius: 20px;
+
+}
+.our-chefs h3{
+    color: #0716ee;
+    text-align: center;
+}
+
+.our-chefs h4{
+    color: #707070;
+    text-align: center;
+}
+.our-chefs .chef-bg{
+    border: 5px solid #ffbbc3;
+    border-radius: 30px;
+}
+.our-chefs .chef-bg1{
+    border: 5px solid #d8d1cb;
+    border-radius: 30px;
+}
+.our-chefs .chef-bg2{
+    border: 5px solid #45346b;
+    border-radius: 30px;
+}
+
+/* footer */
+
+.footer-section{
+    background-image: url(../images/team/footer-bg.jpg);
+    padding: 70px 0;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer-section h1{
+    background-color: #82828262;
+}
+.footer-section h3{
+    color: black;
+}
+.color-letter-1{
+    color: rgb(192, 35, 192);
+    font-size: 60px;
+    
+}
